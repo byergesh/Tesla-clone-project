@@ -29,7 +29,7 @@ function Home() {
             <Section 
                 title = "Model X"
                 description= "Order Online for Touchless Delivery"
-                backgroundImg= "model-s.jpg"
+                backgroundImg= "model-x.jpg"
                 leftBtnText = "Custom order"
                 rightBtnText = "Existing inventory"            
             />
@@ -56,6 +56,6 @@ export default Home
 
 const Container = styled.div`
     height: 100vh;
-
+    z-index: 10;
 `
 
