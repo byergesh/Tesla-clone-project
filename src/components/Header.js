@@ -8,7 +8,7 @@ import {useSelector} from 'react-redux';
 
 function Header() {
     const [burgerStatus, setBurgerStatus] = useState(false);
-    const cars = useSelector(selectCars)
+    const cars = useSelector(selectCars);
 
     return (
         <Container>
@@ -115,7 +115,7 @@ const BurgerNav = styled.div`
     li{
         padding 15px 0;
         border-bottom: 1px solid rgba(0, 0, 0, .2);
-
+        cursor: pointer;
         a{
             font-weight: 600;
         }
